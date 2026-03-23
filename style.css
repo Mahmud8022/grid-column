@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    /* 3 Column */
+    gap: 10px;
+}
+
+.item {
+    padding: 40px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Individual Colors */
+.a{background: red;}
+.b{background: green;}
+.c{background: blue;}
+.d{background: purple;}
+.e{background: orange;}
+
+/* Inportant Part */
+.a {
+    grid-column: span 3;
+}
+.d {
+    grid-column: span 3;
+}
